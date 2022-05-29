@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/assets/css/signup.css">
+    <title>Login</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/295/295128.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-wrapper">
+
+            <h3 class="login-text"><i class="bi bi-person-circle ac-logo"></i>Sign Up</h3>
+        
+            <form action="/signup" method="post" >
+                {% include "alert.html" %}
+                <div class="item"><input class="input" name="email" type="text" placeholder="Email"></div> 
+                <div class="item"><input class="input" name="name" type="text" placeholder="Name"></div> 
+                <div class="item"><input class="input" name="mobile" type="text" placeholder="Mobile"></div> 
+                <div class="item"><input class="input" name="pass" type="password" placeholder="Password"> </div>
+                <div class="item"><input class="input" name="cpass" type="password" placeholder="confirm Password"> </div>
+                <span class="remember"> <a href="#">Forgot Password?</a> </span>
+
+                <div class="item submit"><button type="submit">Submit</button></div>
+            </form>
+            <h2><span>OR</span></h2>
+         
+            <span class="ac">Already have a account? <a href="/login">Log In</a></span>
+            <div>
+                <span class="ac"> <a href="/">Go to home</a></span>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
