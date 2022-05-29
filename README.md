@@ -34,4 +34,5 @@ For running this code:-
 Install  Xampp
 Run MySQL 
 Go to Admin 
-Upload .sql file
+# Upload newuser_data.sql file
+
