@@ -1,6 +1,4 @@
-# MS-Engage-2022-Movie-recommender-System
-
-This webapp was created for the Microsoft Intern Engage Mentorship program 2022.
+#  MovieFlix
 
 # overview - 
 
